@@ -1,0 +1,29 @@
+DATASET:
+  TRAIN:
+    SOURCE_NAME: "SignDataset"
+    SOURCE_PATH: "./data/source/sign/train"
+    TARGET_NAME: "YumiDataset"
+    TARGET_PATH: "./data/target/yumi"
+  TEST:
+    SOURCE_NAME: "SignDataset"
+    SOURCE_PATH: "./data/source/sign/test"
+    TARGET_NAME: "YumiDataset"
+    TARGET_PATH: "./data/target/yumi"
+MODEL:
+  NAME: "ArmNet"
+HYPER:
+  EPOCHS: 10
+  BATCH_SIZE: 16
+  LEARNING_RATE: 0.0001
+LOSS:
+  EE: True
+  VEC: True
+  ORI: True
+  COL: True
+  COL_THRESHOLD: 0.15
+  REG: True
+OTHERS:
+  SAVE: "./saved/models/arm"
+  LOG: "./saved/log"
+  SUMMARY: "./saved/runs"
+  LOG_INTERVAL: 100

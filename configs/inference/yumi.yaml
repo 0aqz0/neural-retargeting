@@ -1,0 +1,32 @@
+DATASET:
+  TEST:
+    SOURCE_NAME: "SignAll"
+    SOURCE_PATH: "./data/source/sign-all/test"
+    TARGET_NAME: "YumiAll"
+    TARGET_PATH: "./data/target/yumi-all"
+MODEL:
+  NAME: "YumiNet"
+  CHECKPOINT: "./saved/models/yumi/best_model_epoch_0003.pth"
+HYPER:
+  EPOCHS: 200
+  BATCH_SIZE: 16
+  LEARNING_RATE: 0.00003
+LOSS:
+  EE: True
+  VEC: True
+  ORI: True
+  FIN: True
+  COL: True
+  COL_THRESHOLD: 0.15
+  REG: True
+# INFERENCE:
+#   MOTION:
+#     SOURCE: './data/source/sign-all/test/h5/yumi_intro_YuMi.h5'
+#     KEY: '我-wo'
+#   H5:
+#     BOOL: True
+#     PATH: './saved/h5'
+OTHERS:
+  LOG: "./saved/log/yumi"
+  SUMMARY: "./saved/runs/yumi"
+  LOG_INTERVAL: 100

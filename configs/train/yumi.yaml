@@ -1,0 +1,30 @@
+DATASET:
+  TRAIN:
+    SOURCE_NAME: "SignAll"
+    SOURCE_PATH: "./data/source/sign-all/train"
+    TARGET_NAME: "YumiAll"
+    TARGET_PATH: "./data/target/yumi-all"
+  TEST:
+    SOURCE_NAME: "SignAll"
+    SOURCE_PATH: "./data/source/sign-all/test"
+    TARGET_NAME: "YumiAll"
+    TARGET_PATH: "./data/target/yumi-all"
+MODEL:
+  NAME: "YumiNet"
+HYPER:
+  EPOCHS: 10
+  BATCH_SIZE: 16
+  LEARNING_RATE: 0.0001
+LOSS:
+  EE: True
+  VEC: True
+  ORI: True
+  FIN: True
+  COL: True
+  COL_THRESHOLD: 0.15
+  REG: True
+OTHERS:
+  SAVE: "./saved/models/yumi"
+  LOG: "./saved/log/yumi"
+  SUMMARY: "./saved/runs/yumi"
+  LOG_INTERVAL: 100

@@ -1,0 +1,25 @@
+DATASET:
+  TRAIN:
+    SOURCE_NAME: "SignWithHand"
+    SOURCE_PATH: "./data/source/sign-hand/train"
+    TARGET_NAME: "InspireHand"
+    TARGET_PATH: "./data/target/yumi-with-hands"
+  TEST:
+    SOURCE_NAME: "SignWithHand"
+    SOURCE_PATH: "./data/source/sign-hand/test"
+    TARGET_NAME: "InspireHand"
+    TARGET_PATH: "./data/target/yumi-with-hands"
+MODEL:
+  NAME: "HandNet"
+HYPER:
+  EPOCHS: 10
+  BATCH_SIZE: 16
+  LEARNING_RATE: 0.0001
+LOSS:
+  FIN: True
+  REG: True
+OTHERS:
+  SAVE: "./saved/models/hand"
+  LOG: "./saved/log/hand"
+  SUMMARY: "./saved/runs/hand"
+  LOG_INTERVAL: 100

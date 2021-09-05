@@ -1,0 +1,32 @@
+DATASET:
+  TEST:
+    SOURCE_NAME: "SignDataset"
+    SOURCE_PATH: "./data/source/sign/test"
+    TARGET_NAME: "YumiDataset"
+    TARGET_PATH: "./data/target/yumi"
+MODEL:
+  NAME: "ArmNet"
+  CHECKPOINT: "./saved/models/arm/best_model_epoch_0000.pth"
+HYPER:
+  EPOCHS: 1000
+  BATCH_SIZE: 16
+  LEARNING_RATE: 0.001
+LOSS:
+  EE: True
+  VEC: True
+  ORI: True
+  COL: True
+  COL_THRESHOLD: 0.15
+  REG: True
+INFERENCE:
+  MOTION:
+    SOURCE: './data/source/sign/test/h5/yumi_intro_YuMi.h5'
+    KEY: '我-wo'
+  H5:
+    BOOL: True
+    PATH: './saved/h5'
+OTHERS:
+  SAVE: "./saved/models/arm"
+  LOG: "./saved/log"
+  SUMMARY: "./saved/runs"
+  LOG_INTERVAL: 100

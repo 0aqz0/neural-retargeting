@@ -1,0 +1,27 @@
+DATASET:
+  TEST:
+    SOURCE_NAME: "SignWithHand"
+    SOURCE_PATH: "./data/source/sign-hand/test"
+    TARGET_NAME: "InspireHand"
+    TARGET_PATH: "./data/target/yumi-with-hands"
+MODEL:
+  NAME: "HandNet"
+  CHECKPOINT: "./saved/models/hand/best_model_epoch_0009.pth"
+HYPER:
+  EPOCHS: 100
+  BATCH_SIZE: 16
+  LEARNING_RATE: 0.0001
+LOSS:
+  FIN: True
+  REG: True
+INFERENCE:
+  MOTION:
+    SOURCE: './data/source/sign-hand/test/h5/yumi_intro_YuMi.h5'
+    KEY: '我-wo'
+  H5:
+    BOOL: True
+    PATH: './saved/h5'
+OTHERS:
+  LOG: "./saved/log/hand"
+  SUMMARY: "./saved/runs/hand"
+  LOG_INTERVAL: 100
