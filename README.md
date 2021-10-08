@@ -1,6 +1,10 @@
 # Neural Retargeting
 
-Code for the paper "Human-Robot Motion Retargeting via Neural Latent Optimization" [Paper](https://arxiv.org/abs/2103.08882) [Youtube](https://youtu.be/wLlwYqFR55o) [Bilibili](https://www.bilibili.com/video/BV1mh411Q7BR?share_source=copy_web)
+Code for the paper "Efficient Human-Robot Motion Retargeting via Neural Latent Optimization"
+
+[![arXiv](https://img.shields.io/badge/arXiv-2103.08882-00ff00.svg)](https://arxiv.org/abs/2103.08882)
+[![YouTube](https://img.shields.io/badge/YouTube-Video-green.svg)](https://youtu.be/wLlwYqFR55o)
+[![Bilibili](https://img.shields.io/badge/Bilibili-Video-blue.svg)](https://www.bilibili.com/video/BV1mh411Q7BR?share_source=copy_web)
 
 ## Prerequisite
 
@@ -46,8 +50,8 @@ If you find this project useful in your research, please cite this paper.
 
 ```
 @article{zhang2021human,
-  title={Human-Robot Motion Retargeting via Neural Latent Optimization},
-  author={Zhang, Haodong and Li, Weijie and Liang, Yuwei and Chen, Zexi and Cui, Yuxiang and Wang, Yue and Xiong, Rong},
+  title={Efficient Human-Robot Motion Retargeting via Neural Latent Optimization},
+  author={Zhang, Haodong and Li, Weijie and Liu, Jiangpin and Chen, Zexi and Cui, Yuxiang and Wang, Yue and Xiong, Rong},
   journal={arXiv preprint arXiv:2103.08882},
   year={2021}
 }
