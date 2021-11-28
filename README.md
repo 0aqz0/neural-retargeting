@@ -16,7 +16,7 @@ Code for the paper "Efficient Human-Robot Motion Retargeting via Neural Latent O
 
 ## Dataset
 
-Dataset will be released soon.
+The Chinese sign language dataset can be downloaded [here](https://www.jianguoyun.com/p/DYm5RzMQ74eHChj_lJ0E).
 
 ## Get started
 
