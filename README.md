@@ -3,7 +3,7 @@
 Code for the paper "Efficient Human-Robot Motion Retargeting via Neural Latent Optimization"
 
 [![arXiv](https://img.shields.io/badge/arXiv-2103.08882-00ff00.svg)](https://arxiv.org/abs/2103.08882)
-[![YouTube](https://img.shields.io/badge/YouTube-Video-green.svg)](https://youtu.be/wLlwYqFR55o)
+[![YouTube](https://img.shields.io/badge/YouTube-Video-green.svg)](https://www.youtube.com/watch?v=pX-uie3vLMA)
 [![Bilibili](https://img.shields.io/badge/Bilibili-Video-blue.svg)](https://www.bilibili.com/video/BV1mh411Q7BR?share_source=copy_web)
 
 ## Prerequisite
