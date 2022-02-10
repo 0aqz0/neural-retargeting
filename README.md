@@ -1,6 +1,6 @@
 # Neural Retargeting
 
-Code for the paper "Efficient Human-Robot Motion Retargeting via Neural Latent Optimization"
+Code for the paper "Kinematic Motion Retargeting via Neural Latent Optimization for Learning Sign Language"
 
 [![arXiv](https://img.shields.io/badge/arXiv-2103.08882-00ff00.svg)](https://arxiv.org/abs/2103.08882)
 [![YouTube](https://img.shields.io/badge/YouTube-Video-green.svg)](https://www.youtube.com/watch?v=pX-uie3vLMA)
@@ -46,7 +46,7 @@ After inference is done, the motion retargeting results are stored in a h5 file.
 
 Real-world experiments could be conducted on ABB's YuMi dual-arm collaborative robot equipped with Inspire-Robotics' dexterous hands.
 
-We release the code in this [repository](https://github.com/0aqz0/egm-control), please follow the instructions [here](https://github.com/0aqz0/egm-control/blob/main/README.md).
+We release the code in this [repository](https://github.com/0aqz0/yumi-control), please follow the instructions.
 
 ## Citation
 
@@ -54,7 +54,7 @@ If you find this project useful in your research, please cite this paper.
 
 ```
 @article{zhang2021human,
-  title={Efficient Human-Robot Motion Retargeting via Neural Latent Optimization},
+  title={Kinematic Motion Retargeting via Neural Latent Optimization for Learning Sign Language},
   author={Zhang, Haodong and Li, Weijie and Liu, Jiangpin and Chen, Zexi and Cui, Yuxiang and Wang, Yue and Xiong, Rong},
   journal={arXiv preprint arXiv:2103.08882},
   year={2021}
