@@ -53,10 +53,11 @@ We release the code in this [repository](https://github.com/0aqz0/yumi-control),
 If you find this project useful in your research, please cite this paper.
 
 ```
-@article{zhang2021human,
+@article{zhang2022kinematic,
   title={Kinematic Motion Retargeting via Neural Latent Optimization for Learning Sign Language},
   author={Zhang, Haodong and Li, Weijie and Liu, Jiangpin and Chen, Zexi and Cui, Yuxiang and Wang, Yue and Xiong, Rong},
-  journal={arXiv preprint arXiv:2103.08882},
-  year={2021}
+  journal={IEEE Robotics and Automation Letters},
+  year={2022},
+  publisher={IEEE}
 }
 ```
